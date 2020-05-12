@@ -661,7 +661,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!136 &5718503805641084893
 CapsuleCollider:
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Agent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"NewDestination","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ChargeForce","value":{"$content":250.0,"$type":"System.Single"},"$version":"A"},{"name":"PreshotPrecision","value":{"$content":4,"$type":"System.Int32"},"$version":"A"},{"name":"TargetPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Animator","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Agent","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"NewDestination","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"ChargeForce","value":{"$content":250.0,"$type":"System.Single"},"$version":"A"},{"name":"PreshotPrecision","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"TargetPos","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"},{"name":"Animator","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 0}
     - {fileID: 2098303396412847003}

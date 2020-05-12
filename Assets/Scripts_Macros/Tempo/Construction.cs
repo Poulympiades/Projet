@@ -24,13 +24,13 @@ public class Construction : MonoBehaviour
 	public GameObject particle;
     [Range(-1, 1)]
     public int scoreValue = 1;
-    PlayerScore playerScore;
+    //PlayerScore playerScore;
 
     private void Start()
     {
         cam = Camera.main;
 		Player = GameObject.Find("Player");
-		playerScore = Player.GetComponent<PlayerScore>();
+		//playerScore = Player.GetComponent<PlayerScore>();
 		ZoneConstruction = GameObject.Find("Zone Construction");
 	}
 
@@ -109,7 +109,7 @@ public class Construction : MonoBehaviour
 		gravity.freezeRotation = true;
 		transform.parent = Player.transform;
 		particle.SetActive(false);
-		playerScore.score += scoreValue;
+		//playerScore.score += scoreValue;
     }
 
     void Unvalid()
@@ -120,6 +120,6 @@ public class Construction : MonoBehaviour
 		gravity.freezeRotation = false;
 		transform.parent = ZoneConstruction.transform;
 		particle.SetActive(true);
-		playerScore.score -= scoreValue;
+		//playerScore.score -= scoreValue;
     }
 }
