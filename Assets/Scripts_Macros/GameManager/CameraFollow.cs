@@ -36,6 +36,7 @@ public class CameraFollow : MonoBehaviour
 		if (playerDistance > maxDistance)
 		{
 			splitUI.SetActive(true);
+			cameraCentre.GetComponent<Camera>().rect = new Rect(0, 0, 0, 0);
 			if (oneTime)
 			{
 				if (player1.transform.position.x > player2.transform.position.x)
@@ -55,7 +56,7 @@ public class CameraFollow : MonoBehaviour
 		{
 			splitUI.SetActive(false);
 			cameraCentre.GetComponent<Camera>().rect = new Rect(0, 0, 1, 1);
-			camera1.GetComponent<Camera>().rect = new Rect(0, 0, 0,0);
+			camera1.GetComponent<Camera>().rect = new Rect(0, 0, 0, 0);
 			camera2.GetComponent<Camera>().rect = new Rect(0, 0, 0, 0);
 			oneTime = true;
 		}

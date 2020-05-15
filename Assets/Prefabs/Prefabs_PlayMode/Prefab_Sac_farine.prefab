@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1322220913332032838}
   m_Layer: 0
   m_Name: Prefab_Sac_farine
-  m_TagString: Untagged
+  m_TagString: Bumpables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

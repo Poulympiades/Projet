@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8012972670864383096}
   m_Layer: 0
   m_Name: Prefab_Pot
-  m_TagString: Untagged
+  m_TagString: Bumpables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

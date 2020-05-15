@@ -5,8 +5,8 @@ using UnityEngine;
 public class Bumper : MonoBehaviour
 {
 	public string bumpables = "Bumpbables";
-	public float bumpForce = 10;
-	public float bumpUp = 3;
+	public float bumpForce;
+	public float bumpUp;
 
 	void OnCollisionEnter(Collision collision)
 	{
