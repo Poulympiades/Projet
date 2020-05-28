@@ -7,6 +7,8 @@ using Ludiq;
 public class ScoreZone : MonoBehaviour
 {
 	public int actualScore;
+	public ParticleSystem scoring;
+	public ParticleSystem scoring2;
 
 	public void OnTriggerEnter(Collider collision)
 	{
@@ -14,6 +16,8 @@ public class ScoreZone : MonoBehaviour
 		{
 			int IAScore = collision.GetComponent<IAScore>().score;
 			actualScore = actualScore + IAScore;
+			scoring.Play();
+			scoring2.Play();
 		}
 	}
 
