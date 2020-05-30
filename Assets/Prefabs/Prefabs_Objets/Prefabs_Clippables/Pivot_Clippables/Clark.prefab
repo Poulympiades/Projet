@@ -175,6 +175,7 @@ GameObject:
   - component: {fileID: 5029922446359466701}
   - component: {fileID: 5029922446359466703}
   - component: {fileID: 5029922446359466702}
+  - component: {fileID: 7178980701039640889}
   m_Layer: 10
   m_Name: Clark
   m_TagString: Untagged
@@ -234,6 +235,19 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: ce779d7d466207043ad6afc0eb4872bf, type: 2}
+--- !u!65 &7178980701039640889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5029922446359466700}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.4, y: 2.12, z: 2.62}
+  m_Center: {x: 0, y: 0, z: 1.82}
 --- !u!1 &5029922446438677828
 GameObject:
   m_ObjectHideFlags: 0

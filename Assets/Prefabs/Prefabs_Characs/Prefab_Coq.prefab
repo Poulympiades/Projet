@@ -736,7 +736,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 1
 --- !u!114 &4600938639939221294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,11 +864,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6369249981881604255}
     m_Modifications:
-    - target: {fileID: 1340903095112179080, guid: 022b7dc251f4a7a48ba2dff2d526952b,
-        type: 3}
-      propertyPath: m_Name
-      value: FX_Collision
-      objectReference: {fileID: 0}
     - target: {fileID: 1732516698122781746, guid: 022b7dc251f4a7a48ba2dff2d526952b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -924,6 +919,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1340903095112179080, guid: 022b7dc251f4a7a48ba2dff2d526952b,
+        type: 3}
+      propertyPath: m_Name
+      value: FX_Collision
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 022b7dc251f4a7a48ba2dff2d526952b, type: 3}
 --- !u!4 &1732516697615044774 stripped
@@ -945,11 +945,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6369249981881604255}
     m_Modifications:
-    - target: {fileID: 1903461843062483441, guid: 816ce100eb9dd844f9acd5a6b8962b18,
-        type: 3}
-      propertyPath: m_Name
-      value: FX_Spotted
-      objectReference: {fileID: 0}
     - target: {fileID: 8417475839623405408, guid: 816ce100eb9dd844f9acd5a6b8962b18,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1004,6 +999,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1903461843062483441, guid: 816ce100eb9dd844f9acd5a6b8962b18,
+        type: 3}
+      propertyPath: m_Name
+      value: FX_Spotted
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 816ce100eb9dd844f9acd5a6b8962b18, type: 3}

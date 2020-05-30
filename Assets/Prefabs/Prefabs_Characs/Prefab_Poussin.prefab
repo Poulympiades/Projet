@@ -202,7 +202,7 @@ NavMeshAgent:
   m_Height: 2
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4
+  m_ObstacleAvoidanceType: 1
 --- !u!114 &1648434510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,11 +624,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3237883262774268014}
     m_Modifications:
-    - target: {fileID: 1491824224213729884, guid: d01a8229599527648af22195fc15c8b3,
-        type: 3}
-      propertyPath: m_Name
-      value: FX_Fear_Drop
-      objectReference: {fileID: 0}
     - target: {fileID: 1491824224213729887, guid: d01a8229599527648af22195fc15c8b3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -683,6 +678,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1491824224213729884, guid: d01a8229599527648af22195fc15c8b3,
+        type: 3}
+      propertyPath: m_Name
+      value: FX_Fear_Drop
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d01a8229599527648af22195fc15c8b3, type: 3}

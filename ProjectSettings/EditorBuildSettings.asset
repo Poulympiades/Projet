@@ -12,14 +12,17 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: a97c6cfdb8299534f9f92dd4ba7e920c
   - enabled: 1
+    path: Assets/Scenes/SelectionScene.unity
+    guid: ad9342cf0a171e64fa73d46380869477
+  - enabled: 1
     path: Assets/Scenes/Poulympiades.unity
     guid: 55c4f0a01594ab64bad4e2d35f3f05d4
   - enabled: 1
-    path: Assets/Scenes/P2_Win.unity
-    guid: 79e63f2ef8fde514b908cfa7d7dde13c
-  - enabled: 1
     path: Assets/Scenes/P1_Win.unity
     guid: b003178d595bb3044864c55038e1602d
+  - enabled: 1
+    path: Assets/Scenes/P2_Win.unity
+    guid: 79e63f2ef8fde514b908cfa7d7dde13c
   - enabled: 1
     path: Assets/Scenes/Draw_Scene.unity
     guid: baa1baea213a8aa41bfc842688a16a39
